@@ -1,0 +1,184 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* buisness card */
+.card{
+    width: 430px;
+    background-color: #28DF99;
+    padding: 140px 64px;
+    margin: 60px auto;
+    border-radius: 12px;
+}
+.card-title{
+    font-size: 42px;
+    font-weight: 600;
+}
+.card-text{
+    font-size: 16px;
+    margin: 30px 0px;
+}
+.card-btn{
+    background-color: white;
+    color: black;
+    padding: 15px 40px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* profile card */
+.profile{
+    width: 558px;
+    margin: 60px auto;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+.profile-body{
+    padding: 34px 34px 0px 34px;
+}
+.profile-title{
+    font-size: 32px;
+    font-weight: 400;
+}
+.profile-text{
+    font-size: 20px;
+    color: darkgray;
+    margin-top: 16px;
+    line-height: 28px;
+}
+.profile-img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    padding: 40px;
+}
+.profile-bottom{
+    font-size: 20px;
+    padding: 34px;
+    color: #548CFF;
+    border-top: 1px solid lightgray;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* google photos card */
+.google-photos{
+    width: 558px;
+    margin: 60px auto;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+.google-photos-img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.lock-icon{
+    height: 37px;
+}
+.lock-title{
+    text-transform: uppercase;
+    color: #888888;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.gp-card-body{
+    padding: 32px 28px;
+}
+.display-css{
+    display: block;
+    margin-bottom: 16px;
+}
+.inline-css{
+    display: inline-block;
+    vertical-align: middle;
+}
+.gp-card-title{
+    font-size: 36px;
+    line-height: 40px;
+}
+.gp-card-text{
+    font-size: 24px;
+    color: #888888;
+    line-height: 40px;
+    margin: 20px 0px 32px 0px;
+}
+.gp-card-btn{
+    font-size: 24px;
+    padding: 15px 35px;
+    background-color: white;
+    color: #548CFF;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* login block */
+.login{
+    border-top: 1px solid #dddddd;
+    width: 80%;
+    margin: 120px auto;
+}
+.login-block{
+    width: 320px;
+    text-align: center;
+    padding: 16px;
+    margin: 60px auto;
+}
+.company-name{
+    font-family: serif;
+    font-size: 50px;
+}
+.login-text{
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.input-css{
+    display: block;
+    padding: 15px 24px;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    margin: 16px 0px;
+    border-radius: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.login-btn{
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    margin-top: 18px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+.member{
+    font-size: 14px;
+    color: #888888;
+    margin-top: 32px;
+    line-height: 24px;
+}
+.sign-up{
+    text-decoration: underline;
+    color: #494A4B;
+    cursor: pointer;
+}
+.login-forgot{
+    font-size: 14px;
+    color: #494A4B;
+    text-decoration: underline;
+}
+.login-tnc{
+    color: darkgray;
+    font-size: 12px;
+    margin-top: 28px;
+}
+.underline-css{
+    text-decoration: underline;
+    cursor: pointer;
+}
